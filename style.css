@@ -12,7 +12,7 @@ body {
 }
 
 h1 {
-    color: #42b72b;
+    color: #92b62f;
 }
 
 p {
@@ -21,5 +21,53 @@ p {
 }
 .titulo{
     text-align: center;
+    color: #4c5f17;
 }
 
+.botao{
+
+display:inline-block;
+
+margin-top:15px;
+
+padding:12px 25px;
+
+background:#ffd700;
+
+color:black;
+
+font-weight:bold;
+
+border-radius:8px;
+
+text-decoration:none;
+
+transition:0.3s;
+
+}
+
+.botao:hover{
+
+transform:scale(1.1);
+
+background:white; 
+}
+.div {
+    background-color: #cecf62db;
+     
+}
+.div-1 {
+background-color: #cecf62db;
+ width: 1000px;
+  margin: 10px;
+ 
+   
+}
+ .mycontainer {
+  width:100%;
+  overflow:auto;
+}
+.mycontainer {
+  width:33%;  
+  float:left;
+}
